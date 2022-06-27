@@ -1,5 +1,8 @@
 # rshmem
 
+[![crates.io](https://img.shields.io/crates/v/rshmem.svg)](https://crates.io/crates/rshmem)
+[![mio](https://docs.rs/rshmem/badge.svg)](https://docs.rs/rshmem/)
+
 This crate provides a wrapper around win32 shared memory APIs. It provides an easy way to allocate, link allocations and deallocate buffers.
 
 ## Usage
