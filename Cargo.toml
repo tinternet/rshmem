@@ -2,6 +2,22 @@
 name = "shmem"
 version = "0.1.0"
 edition = "2021"
+license = "GPL-2.0"
+authors = ["bloc4ain <bloc4ain@gmail.com>"]
+description = "Win32 shared memory with safe wrapper for allocating buffers"
+
+#Extra fields for crates.io
+readme = "README.md"
+documentation = "https://docs.rs/shmem"
+repository = "https://github.com/bloc4ain/shmem"
+keywords = ["shmem", "shared", "memory", "inter-process", "process"]
+categories = [
+    "os::unix-apis",
+    "os::windows-apis",
+    "memory-management",
+    "concurrency",
+    "asynchronous",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
