@@ -1,4 +1,4 @@
-# shmem
+# rshmem
 
 This crate provides a wrapper around win32 shared memory APIs. It provides an easy way to allocate, link allocations and deallocate buffers.
 
