@@ -57,7 +57,6 @@ pub unsafe fn open_memory(
         return Err(format!("Could not map view of file: {:?}", error).into());
     }
 
-    std::ptr::write_bytes(buffer as *mut u8, 0, size);
     Ok((file, buffer))
 }
 
